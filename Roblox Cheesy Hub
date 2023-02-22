@@ -1,0 +1,514 @@
+
+--MADE BY CHEESYDUDE4TH
+--CREDITS TO MATTSTER5454 AND PENGIUNMANIACK
+
+
+
+
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local CheesyHub = Instance.new("ScreenGui")
+local Panel = Instance.new("Frame")
+local Main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local SpeedGUI = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local Credits = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local DoorsGUI = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local ClickToTP = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local UICorner_6 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+
+--Properties:
+
+CheesyHub.Name = "CheesyHub"
+CheesyHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Panel.Name = "Panel"
+Panel.Parent = CheesyHub
+Panel.BackgroundColor3 = Color3.fromRGB(69, 69, 69)
+Panel.Position = UDim2.new(0.0771678612, 0, 0.158354118, 0)
+Panel.Size = UDim2.new(0, 396, 0, 51)
+
+Main.Name = "Main"
+Main.Parent = Panel
+Main.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+Main.Position = UDim2.new(-0.00111497054, 0, 0.981883645, 0)
+Main.Size = UDim2.new(0, 396, 0, 435)
+
+UICorner.Parent = Main
+
+SpeedGUI.Name = "Speed GUI"
+SpeedGUI.Parent = Main
+SpeedGUI.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpeedGUI.Position = UDim2.new(0.0454545468, 0, 0.160108209, 0)
+SpeedGUI.Size = UDim2.new(0, 359, 0, 40)
+SpeedGUI.Font = Enum.Font.SourceSansBold
+SpeedGUI.Text = "Speed GUI"
+SpeedGUI.TextColor3 = Color3.fromRGB(0, 0, 0)
+SpeedGUI.TextSize = 30.000
+
+UICorner_2.Parent = SpeedGUI
+
+Credits.Name = "Credits"
+Credits.Parent = Main
+Credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits.Position = UDim2.new(0.0454545468, 0, 0.0451656729, 0)
+Credits.Size = UDim2.new(0, 359, 0, 40)
+Credits.Font = Enum.Font.SourceSansBold
+Credits.Text = "Credits"
+Credits.TextColor3 = Color3.fromRGB(0, 0, 0)
+Credits.TextSize = 30.000
+
+UICorner_3.Parent = Credits
+
+DoorsGUI.Name = "Doors GUI"
+DoorsGUI.Parent = Main
+DoorsGUI.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DoorsGUI.Position = UDim2.new(0.0454545468, 0, 0.279648423, 0)
+DoorsGUI.Size = UDim2.new(0, 359, 0, 40)
+DoorsGUI.Font = Enum.Font.SourceSansBold
+DoorsGUI.Text = "Doors GUI"
+DoorsGUI.TextColor3 = Color3.fromRGB(0, 0, 0)
+DoorsGUI.TextSize = 30.000
+
+UICorner_4.Parent = DoorsGUI
+
+ClickToTP.Name = "ClickToTP"
+ClickToTP.Parent = Main
+ClickToTP.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ClickToTP.Position = UDim2.new(0.0454545468, 0, 0.399188638, 0)
+ClickToTP.Size = UDim2.new(0, 359, 0, 40)
+ClickToTP.Font = Enum.Font.SourceSansBold
+ClickToTP.Text = "Click To TP"
+ClickToTP.TextColor3 = Color3.fromRGB(0, 0, 0)
+ClickToTP.TextSize = 30.000
+
+UICorner_5.Parent = ClickToTP
+
+UICorner_6.Parent = Panel
+
+TextLabel.Parent = Panel
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.SourceSansBold
+TextLabel.Text = "Cheesy HUB"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 44.000
+
+-- Scripts:
+
+local function CAMONB_fake_script() -- SpeedGUI.LocalScript 
+	local script = Instance.new('LocalScript', SpeedGUI)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		--Speed GUI
+		--Made by CheesyDude4TH
+		local ScreenGui = Instance.new("ScreenGui")
+		local Frame = Instance.new("Frame")
+		local Logo = Instance.new("ImageLabel")
+		local _2 = Instance.new("TextLabel")
+		local _1 = Instance.new("TextLabel")
+		ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+		Frame.Parent = ScreenGui
+		Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Frame.BackgroundTransparency = 1.000
+		Frame.Position = UDim2.new(0.185609698, 0, 0.346633404, 0)
+		Frame.Size = UDim2.new(0, 649, 0, 198)
+		Logo.Name = "Logo"
+		Logo.Parent = Frame
+		Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Logo.BackgroundTransparency = 1.000
+		Logo.Position = UDim2.new(-0.000960707664, 0, -0.00333762914, 0)
+		Logo.Size = UDim2.new(0, 212, 0, 198)
+		Logo.Image = "http://www.roblox.com/asset/?id=11149211526"
+		_2.Name = "2"
+		_2.Parent = Frame
+		_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		_2.BackgroundTransparency = 1.000
+		_2.Position = UDim2.new(0.325115561, 0, 0, 0)
+		_2.Size = UDim2.new(0, 438, 0, 197)
+		_2.Font = Enum.Font.SourceSansBold
+		_2.Text = "CHEESY PRODUCTIONS"
+		_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+		_2.TextSize = 50.000
+		_1.Name = "1"
+		_1.Parent = _2
+		_1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		_1.BackgroundTransparency = 1.000
+		_1.Position = UDim2.new(0.0146132708, 0, -0.0355329961, 0)
+		_1.Size = UDim2.new(0, 438, 0, 197)
+		_1.Font = Enum.Font.SourceSansBold
+		_1.Text = "CHEESY PRODUCTIONS"
+		_1.TextColor3 = Color3.fromRGB(255, 255, 255)
+		_1.TextSize = 50.000
+		local function NTIYX_fake_script() -- _1.Script 
+			local script = Instance.new('Script', _1)
+	
+			local one = script.Parent
+			local two = script.Parent.Parent
+			local Logo = script.Parent.Parent.Parent.Logo
+	
+			Logo.Visible = true
+			two.Visible = true
+			one.Visible = true
+			wait(5)
+			Logo.Visible = false
+			two.Visible = false
+			one.Visible = false
+		end
+		coroutine.wrap(NTIYX_fake_script)()
+	
+		wait(5)
+		local SpeedGUI = Instance.new("ScreenGui")
+		local Panel = Instance.new("Frame")
+		local UICorner = Instance.new("UICorner")
+		local Main = Instance.new("Frame")
+		local UICorner_2 = Instance.new("UICorner")
+		local Speed16 = Instance.new("TextButton")
+		local UICorner_3 = Instance.new("UICorner")
+		local Speed30 = Instance.new("TextButton")
+		local UICorner_4 = Instance.new("UICorner")
+		local Speed50 = Instance.new("TextButton")
+		local UICorner_5 = Instance.new("UICorner")
+		local Speed100 = Instance.new("TextButton")
+		local UICorner_6 = Instance.new("UICorner")
+		local TextLabel = Instance.new("TextLabel")
+		SpeedGUI.Name = "SpeedGUI"
+		SpeedGUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+		Panel.Name = "Panel"
+		Panel.Parent = SpeedGUI
+		Panel.BackgroundColor3 = Color3.fromRGB(57, 154, 206)
+		Panel.Position = UDim2.new(0.0572792366, 0, 0.233167082, 0)
+		Panel.Size = UDim2.new(0, 341, 0, 66)
+		UICorner.Parent = Panel
+		Main.Name = "Main"
+		Main.Parent = Panel
+		Main.BackgroundColor3 = Color3.fromRGB(41, 191, 255)
+		Main.Position = UDim2.new(-0.00208743289, 0, 0.999773264, 0)
+		Main.Size = UDim2.new(0, 343, 0, 379)
+		UICorner_2.Parent = Main
+		Speed16.Name = "Speed 16"
+		Speed16.Parent = Main
+		Speed16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Speed16.Position = UDim2.new(0.0728862956, 0, 0.066162914, 0)
+		Speed16.Size = UDim2.new(0, 285, 0, 50)
+		Speed16.Font = Enum.Font.SourceSansBold
+		Speed16.Text = "Speed 16"
+		Speed16.TextColor3 = Color3.fromRGB(0, 0, 0)
+		Speed16.TextSize = 50.000
+		UICorner_3.Parent = Speed16
+		Speed30.Name = "Speed 30"
+		Speed30.Parent = Main
+		Speed30.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Speed30.Position = UDim2.new(0.0728862956, 0, 0.216558695, 0)
+		Speed30.Size = UDim2.new(0, 285, 0, 50)
+		Speed30.Font = Enum.Font.SourceSansBold
+		Speed30.Text = "Speed 30"
+		Speed30.TextColor3 = Color3.fromRGB(0, 0, 0)
+		Speed30.TextSize = 50.000
+		UICorner_4.Parent = Speed30
+		Speed50.Name = "Speed 50"
+		Speed50.Parent = Main
+		Speed50.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Speed50.Position = UDim2.new(0.0728862956, 0, 0.372231513, 0)
+		Speed50.Size = UDim2.new(0, 285, 0, 50)
+		Speed50.Font = Enum.Font.SourceSansBold
+		Speed50.Text = "Speed 50"
+		Speed50.TextColor3 = Color3.fromRGB(0, 0, 0)
+		Speed50.TextSize = 50.000
+		UICorner_5.Parent = Speed50
+		Speed100.Name = "Speed 100"
+		Speed100.Parent = Main
+		Speed100.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Speed100.Position = UDim2.new(0.0728862956, 0, 0.522627294, 0)
+		Speed100.Size = UDim2.new(0, 285, 0, 50)
+		Speed100.Font = Enum.Font.SourceSansBold
+		Speed100.Text = "Speed 100"
+		Speed100.TextColor3 = Color3.fromRGB(0, 0, 0)
+		Speed100.TextSize = 50.000
+		UICorner_6.Parent = Speed100
+		TextLabel.Parent = Panel
+		TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		TextLabel.BackgroundTransparency = 1.000
+		TextLabel.Position = UDim2.new(0.0469208211, 0, 0.121212125, 0)
+		TextLabel.Size = UDim2.new(0, 200, 0, 50)
+		TextLabel.Font = Enum.Font.SourceSansBold
+		TextLabel.Text = "SPEED GUI"
+		TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+		TextLabel.TextSize = 50.000
+		local function WIOOA_fake_script()
+			local script = Instance.new('LocalScript', Speed16)
+	
+			script.Parent.MouseButton1Down:Connect(function(okPressed)
+				game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+			end)
+	
+		end
+		coroutine.wrap(WIOOA_fake_script)()
+		local function HZCF_fake_script()
+			local script = Instance.new('LocalScript', Speed30)
+	
+			script.Parent.MouseButton1Down:Connect(function(okPressed)
+				game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 30
+			end)
+	
+		end
+		coroutine.wrap(HZCF_fake_script)()
+		local function JOZLZ_fake_script()
+			local script = Instance.new('LocalScript', Speed50)
+	
+			script.Parent.MouseButton1Down:Connect(function(okPressed)
+				game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50
+			end)
+	
+		end
+		coroutine.wrap(JOZLZ_fake_script)()
+		local function DQCXIR_fake_script()
+			local script = Instance.new('LocalScript', Speed100)
+	
+			script.Parent.MouseButton1Down:Connect(function(okPressed)
+				game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
+			end)
+	
+		end
+		coroutine.wrap(DQCXIR_fake_script)()
+		local function HENQ_fake_script()
+			local script = Instance.new('Script', Panel)
+	
+			frame = script.Parent
+			frame.Draggable = true
+			frame.Active = true
+			frame.Selectable = true
+		end
+		coroutine.wrap(HENQ_fake_script)()
+	
+	end)
+end
+coroutine.wrap(CAMONB_fake_script)()
+local function SWKUZD_fake_script() -- Credits.LocalScript 
+	local script = Instance.new('LocalScript', Credits)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- Gui to Lua
+		-- Version: 3.2
+	
+		-- Instances:
+	
+		local Credits = Instance.new("ScreenGui")
+		local Main = Instance.new("Frame")
+		local UICorner = Instance.new("UICorner")
+		local CheesyDude4TH = Instance.new("TextLabel")
+		local Creator = Instance.new("TextLabel")
+		local PEOPLEIGOTCODEFROM = Instance.new("TextLabel")
+		local Pengiun = Instance.new("TextLabel")
+		local Mattster = Instance.new("TextLabel")
+		local Title = Instance.new("TextLabel")
+	
+		--Properties:
+	
+		Credits.Name = "Credits"
+		Credits.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+	
+		Main.Name = "Main"
+		Main.Parent = Credits
+		Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Main.Position = UDim2.new(0.450814337, 0, 0.14339152, 0)
+		Main.Size = UDim2.new(0, 359, 0, 411)
+	
+		UICorner.Parent = Main
+	
+		CheesyDude4TH.Name = "CheesyDude4TH"
+		CheesyDude4TH.Parent = Main
+		CheesyDude4TH.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		CheesyDude4TH.BackgroundTransparency = 1.000
+		CheesyDude4TH.Position = UDim2.new(0.0859118253, 0, 0.184720665, 0)
+		CheesyDude4TH.Size = UDim2.new(0, 294, 0, 50)
+		CheesyDude4TH.Font = Enum.Font.SourceSansBold
+		CheesyDude4TH.Text = "CheesyDude4TH"
+		CheesyDude4TH.TextColor3 = Color3.fromRGB(0, 0, 0)
+		CheesyDude4TH.TextSize = 25.000
+	
+		Creator.Name = "Creator"
+		Creator.Parent = Main
+		Creator.BackgroundColor3 = Color3.fromRGB(117, 117, 117)
+		Creator.BackgroundTransparency = 1.000
+		Creator.Position = UDim2.new(0.0859118253, 0, 0.235815555, 0)
+		Creator.Size = UDim2.new(0, 294, 0, 50)
+		Creator.Font = Enum.Font.SourceSansBold
+		Creator.Text = "Creator"
+		Creator.TextColor3 = Color3.fromRGB(129, 129, 129)
+		Creator.TextSize = 20.000
+	
+		PEOPLEIGOTCODEFROM.Name = "PEOPLE I GOT CODE FROM"
+		PEOPLEIGOTCODEFROM.Parent = Main
+		PEOPLEIGOTCODEFROM.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		PEOPLEIGOTCODEFROM.BackgroundTransparency = 1.000
+		PEOPLEIGOTCODEFROM.Position = UDim2.new(0.0859118253, 0, 0.357470065, 0)
+		PEOPLEIGOTCODEFROM.Size = UDim2.new(0, 294, 0, 50)
+		PEOPLEIGOTCODEFROM.Font = Enum.Font.SourceSansBold
+		PEOPLEIGOTCODEFROM.Text = "PEOPLE I GOT CODE FROM:"
+		PEOPLEIGOTCODEFROM.TextColor3 = Color3.fromRGB(0, 0, 0)
+		PEOPLEIGOTCODEFROM.TextSize = 30.000
+	
+		Pengiun.Name = "Pengiun"
+		Pengiun.Parent = Main
+		Pengiun.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Pengiun.BackgroundTransparency = 1.000
+		Pengiun.Position = UDim2.new(0.0886973441, 0, 0.479124576, 0)
+		Pengiun.Size = UDim2.new(0, 294, 0, 50)
+		Pengiun.Font = Enum.Font.SourceSansBold
+		Pengiun.Text = "PenguinManiack (YT)"
+		Pengiun.TextColor3 = Color3.fromRGB(0, 0, 0)
+		Pengiun.TextSize = 25.000
+	
+		Mattster.Name = "Mattster"
+		Mattster.Parent = Main
+		Mattster.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Mattster.BackgroundTransparency = 1.000
+		Mattster.Position = UDim2.new(0.0886973441, 0, 0.559416533, 0)
+		Mattster.Size = UDim2.new(0, 294, 0, 50)
+		Mattster.Font = Enum.Font.SourceSansBold
+		Mattster.Text = "Mattster5454 (YT)"
+		Mattster.TextColor3 = Color3.fromRGB(0, 0, 0)
+		Mattster.TextSize = 25.000
+	
+		Title.Name = "Title"
+		Title.Parent = Main
+		Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Title.Position = UDim2.new(0.0859118253, 0, 0.0509007201, 0)
+		Title.Size = UDim2.new(0, 294, 0, 50)
+		Title.Font = Enum.Font.SourceSansBold
+		Title.Text = "Credits"
+		Title.TextColor3 = Color3.fromRGB(0, 0, 0)
+		Title.TextSize = 30.000
+	
+		-- Scripts:
+	
+		local function HTURR_fake_script() -- Main.Draggable 
+			local script = Instance.new('Script', Main)
+	
+			frame = script.Parent
+			frame.Draggable = true
+			frame.Active = true
+			frame.Selectable = true
+		end
+		coroutine.wrap(HTURR_fake_script)()
+	
+	end)
+end
+coroutine.wrap(SWKUZD_fake_script)()
+local function RRPVEYE_fake_script() -- DoorsGUI.LocalScript 
+	local script = Instance.new('LocalScript', DoorsGUI)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- Gui to Lua
+		-- Version: 3.2
+	
+		-- Instances:
+	
+		local DoorsScripts = Instance.new("ScreenGui")
+		local MAIN = Instance.new("Frame")
+		local UICorner = Instance.new("UICorner")
+		local Title = Instance.new("TextLabel")
+		local SummonScreechPlushy = Instance.new("TextButton")
+		local UICorner_2 = Instance.new("UICorner")
+	
+		--Properties:
+	
+		DoorsScripts.Name = "Doors Scripts"
+		DoorsScripts.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+	
+		MAIN.Name = "MAIN"
+		MAIN.Parent = DoorsScripts
+		MAIN.BackgroundColor3 = Color3.fromRGB(136, 136, 136)
+		MAIN.Position = UDim2.new(0.537788391, 0, 0.220698252, 0)
+		MAIN.Size = UDim2.new(0, 356, 0, 470)
+	
+		UICorner.Parent = MAIN
+	
+		Title.Name = "Title"
+		Title.Parent = MAIN
+		Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Title.BackgroundTransparency = 1.000
+		Title.Size = UDim2.new(0, 356, 0, 79)
+		Title.Font = Enum.Font.SourceSansBold
+		Title.Text = "Doors GUI"
+		Title.TextColor3 = Color3.fromRGB(0, 0, 0)
+		Title.TextSize = 50.000
+	
+		SummonScreechPlushy.Name = "Summon Screech Plushy"
+		SummonScreechPlushy.Parent = MAIN
+		SummonScreechPlushy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		SummonScreechPlushy.Position = UDim2.new(0.0561797768, 0, 0.197872341, 0)
+		SummonScreechPlushy.Size = UDim2.new(0, 314, 0, 55)
+		SummonScreechPlushy.Font = Enum.Font.SourceSansBold
+		SummonScreechPlushy.Text = "Summon Screech Plushy Door 0"
+		SummonScreechPlushy.TextColor3 = Color3.fromRGB(0, 0, 0)
+		SummonScreechPlushy.TextSize = 25.000
+	
+		UICorner_2.Parent = SummonScreechPlushy
+	
+		-- Scripts:
+	
+		local function YTIY_fake_script() -- SummonScreechPlushy.LocalScript 
+			local script = Instance.new('LocalScript', SummonScreechPlushy)
+	
+			script.Parent.MouseButton1Click:Connect(function()
+				local model = game:GetObjects("rbxassetid://12568750959")[1]
+				model.Parent = workspace
+				model.Anchored = true
+				model.CFrame = workspace.CurrentRooms[0].Parts.FrontDesk.Paper.CFrame * CFrame.new(0, .9, 0)
+				model.Prompt.Triggered:Connect(function()
+					firesignal(game.ReplicatedStorage.Bricks.Caption.OnClientEvent, "psst")
+					model[""]:Play()
+				end)
+			end)
+		end
+		coroutine.wrap(YTIY_fake_script)()
+		local function GHNB_fake_script() -- MAIN.Draggable 
+			local script = Instance.new('Script', MAIN)
+	
+			frame = script.Parent
+			frame.Draggable = true
+			frame.Active = true
+			frame.Selectable = true
+		end
+		coroutine.wrap(GHNB_fake_script)()
+	
+	end)
+end
+coroutine.wrap(RRPVEYE_fake_script)()
+local function WVFNRH_fake_script() -- ClickToTP.LocalScript 
+	local script = Instance.new('LocalScript', ClickToTP)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		mouse = game.Players.LocalPlayer:GetMouse()
+		tool = Instance.new("Tool")
+		tool.RequiresHandle = false
+		tool.Name = "Click TP"
+		tool.Activated:connect(function()
+			local pos = mouse.Hit+Vector3.new(0,2.5,0)
+			pos = CFrame.new(pos.X,pos.Y,pos.Z)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
+		end)
+		tool.Parent = game.Players.LocalPlayer.Backpack
+	end)
+end
+coroutine.wrap(WVFNRH_fake_script)()
+local function JFDT_fake_script() -- Panel.Draggable 
+	local script = Instance.new('Script', Panel)
+
+	frame = script.Parent
+	frame.Draggable = true
+	frame.Active = true
+	frame.Selectable = true
+end
+coroutine.wrap(JFDT_fake_script)()
